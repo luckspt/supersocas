@@ -46,7 +46,7 @@ SoundSource::playing() const
 void
 SoundSource::set_pitch(float pitch)
 {
-  // m_source->set_pitch(pitch);
+  m_source->set_pitch(pitch);
 }
 
 void
